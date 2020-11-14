@@ -80,7 +80,7 @@ class _MyHomePageState extends State<MyHomePage> {
                       color: Colors.white),
                 )),
                 decoration: BoxDecoration(
-                    color: Color.fromRGBO(108, 99, 255, 100),
+                    color: Color.fromRGBO(108, 99, 255, 1),
                     borderRadius: BorderRadius.circular(25)),
               ),
             ),
@@ -106,7 +106,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 ),
                 decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(width * 0.0833),
-                    color: Color.fromRGBO(108, 99, 255, 100)),
+                    color: Color.fromRGBO(108, 99, 255, 1)),
               ),
             ),
           ],

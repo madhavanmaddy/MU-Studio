@@ -63,7 +63,7 @@ class _ServicePageState extends State<ServicePage> {
                         color: Colors.white),
                   )),
                   decoration: BoxDecoration(
-                      color: Color.fromRGBO(108, 99, 255, 100),
+                      color: Color.fromRGBO(108, 99, 255, 1),
                       borderRadius: BorderRadius.circular(25)),
                 ),
               ),
@@ -94,7 +94,7 @@ class _ServicePageState extends State<ServicePage> {
                         color: Colors.white),
                   )),
                   decoration: BoxDecoration(
-                      color: Color.fromRGBO(108, 99, 255, 100),
+                      color: Color.fromRGBO(108, 99, 255, 1),
                       borderRadius: BorderRadius.circular(25)),
                 ),
               ),
