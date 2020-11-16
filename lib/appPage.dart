@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:mu_studio/Widget/drawer.dart';
 import 'package:mu_studio/Widget/maddyDetails.dart';
 import 'package:mu_studio/Widget/maddyStats.dart';
-import 'package:mu_studio/servicePage.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 class AppPage extends StatefulWidget {
@@ -53,9 +52,6 @@ class _AppPageState extends State<AppPage> {
               Expanded(
                 child: Stats(),
               ),
-              // Expanded(
-              //   child: Container(),
-              // ),
               GestureDetector(
                 onTap: () async {
                   const url = 'http://wa.me/+918300125679';
@@ -78,11 +74,11 @@ class _AppPageState extends State<AppPage> {
                   )),
                   decoration: BoxDecoration(
                       color: Color.fromRGBO(108, 99, 255, 1),
-                      borderRadius: BorderRadius.circular(25)),
+                      borderRadius: BorderRadius.circular(width * 0.06365)),
                 ),
               ),
               SizedBox(
-                height: 50,
+                height: height * 0.0198,
               )
             ],
           ),

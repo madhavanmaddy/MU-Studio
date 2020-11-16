@@ -23,6 +23,7 @@ class _AppDrawerState extends State<AppDrawer> {
           ),
           GestureDetector(
             onTap: () {
+              Navigator.pop(context);
               Navigator.of(context)
                   .push(MaterialPageRoute(builder: (context) => MyHomePage()));
             },
@@ -46,6 +47,7 @@ class _AppDrawerState extends State<AppDrawer> {
           ),
           GestureDetector(
             onTap: () {
+              Navigator.pop(context);
               Navigator.of(context)
                   .push(MaterialPageRoute(builder: (context) => ServicePage()));
             },

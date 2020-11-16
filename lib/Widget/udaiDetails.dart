@@ -1,11 +1,6 @@
 import 'package:flutter/material.dart';
 
-class UdaiDetails extends StatefulWidget {
-  @override
-  _UdaiDetailsState createState() => _UdaiDetailsState();
-}
-
-class _UdaiDetailsState extends State<UdaiDetails> {
+class UdaiDetails extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     double width = MediaQuery.of(context).size.width;
@@ -14,7 +9,7 @@ class _UdaiDetailsState extends State<UdaiDetails> {
       children: [
         Positioned(
           top: height * 0.01445,
-          left: 40,
+          left: width * 0.1018,
           child: Text(
             'Team :',
             style: TextStyle(
@@ -23,7 +18,7 @@ class _UdaiDetailsState extends State<UdaiDetails> {
         ),
         Positioned(
           top: height * 0.01445,
-          left: 175,
+          left: width * 0.4456,
           child: Text(
             'Web Development',
             style: TextStyle(
@@ -32,7 +27,7 @@ class _UdaiDetailsState extends State<UdaiDetails> {
         ),
         Positioned(
           top: height * 0.07045,
-          left: 40,
+          left: width * 0.1018,
           child: Text(
             'Position :',
             style: TextStyle(
@@ -41,7 +36,7 @@ class _UdaiDetailsState extends State<UdaiDetails> {
         ),
         Positioned(
           top: height * 0.07045,
-          left: 175,
+          left: width * 0.4456,
           child: Text(
             'Developer',
             style: TextStyle(
@@ -50,7 +45,7 @@ class _UdaiDetailsState extends State<UdaiDetails> {
         ),
         Positioned(
           top: height * 0.12645,
-          left: 40,
+          left: width * 0.1018,
           child: Text(
             'Age :',
             style: TextStyle(
@@ -59,7 +54,7 @@ class _UdaiDetailsState extends State<UdaiDetails> {
         ),
         Positioned(
           top: height * 0.12645,
-          left: 175,
+          left: width * 0.4456,
           child: Text(
             '19',
             style: TextStyle(
@@ -68,7 +63,7 @@ class _UdaiDetailsState extends State<UdaiDetails> {
         ),
         Positioned(
           top: height * 0.18245,
-          left: 40,
+          left: width * 0.1018,
           child: Text(
             'Country :',
             style: TextStyle(
@@ -77,7 +72,7 @@ class _UdaiDetailsState extends State<UdaiDetails> {
         ),
         Positioned(
           top: height * 0.18245,
-          left: 175,
+          left: width * 0.4456,
           child: Text(
             'India',
             style: TextStyle(

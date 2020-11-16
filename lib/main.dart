@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:mu_studio/Widget/drawer.dart';
 import 'package:mu_studio/servicePage.dart';
 
@@ -9,6 +10,7 @@ void main() {
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
+    SystemChrome.setPreferredOrientations([DeviceOrientation.portraitUp]);
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       home: MyHomePage(),
@@ -81,7 +83,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 )),
                 decoration: BoxDecoration(
                     color: Color.fromRGBO(108, 99, 255, 1),
-                    borderRadius: BorderRadius.circular(25)),
+                    borderRadius: BorderRadius.circular(width * 0.06365)),
               ),
             ),
             SizedBox(
@@ -91,10 +93,10 @@ class _MyHomePageState extends State<MyHomePage> {
               borderRadius: BorderRadius.circular(width * 0.0833),
               elevation: width * 0.0277,
               child: Container(
-                height: height * 0.2668,
+                height: height * 0.2468,
                 width: width * 0.85,
                 child: Padding(
-                  padding: EdgeInsets.all(width * 0.0556),
+                  padding: EdgeInsets.all(width * 0.0356),
                   child: Text(
                     'Our Motto,\n\tAt MU Studio, we developers strive hard to produce good quality solutions to our clients with utmost dedication. ',
                     style: TextStyle(

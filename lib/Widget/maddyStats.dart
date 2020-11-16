@@ -15,7 +15,7 @@ class _StatsState extends State<Stats> {
       children: [
         Positioned(
           top: height * 0.01445,
-          left: 40,
+          left: width * 0.1018,
           child: Text(
             'Statistics :',
             style: TextStyle(
@@ -24,31 +24,31 @@ class _StatsState extends State<Stats> {
         ),
         Positioned(
           top: height * 0.07045,
-          left: 45,
+          left: width * 0.1145,
           child: StatsItem(
             width: width,
             content: '5',
-            pad: 22.5,
+            pad: width * 0.0522,
             bcontent: 'Matches',
           ),
         ),
         Positioned(
           top: height * 0.07045,
-          left: 170,
+          left: width * 0.4328,
           child: StatsItem(
             width: width,
             content: '10*',
-            pad: 10,
+            pad: width * 0.0254,
             bcontent: 'Goals',
           ),
         ),
         Positioned(
           top: height * 0.07045,
-          left: 295,
+          left: width * 0.7511,
           child: StatsItem(
             width: width,
             content: '3',
-            pad: 22.5,
+            pad: width * 0.0522,
             bcontent: 'Assists',
           ),
         ),

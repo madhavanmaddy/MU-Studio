@@ -52,9 +52,6 @@ class _WebPageState extends State<WebPage> {
               Expanded(
                 child: Stats(),
               ),
-              // Expanded(
-              //   child: Container(),
-              // ),
               GestureDetector(
                 onTap: () async {
                   const url = 'http://wa.me/+919597096870';
@@ -81,7 +78,7 @@ class _WebPageState extends State<WebPage> {
                 ),
               ),
               SizedBox(
-                height: 50,
+                height: height * 0.0198,
               )
             ],
           ),

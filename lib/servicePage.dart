@@ -36,7 +36,10 @@ class _ServicePageState extends State<ServicePage> {
             mainAxisAlignment: MainAxisAlignment.start,
             crossAxisAlignment: CrossAxisAlignment.center,
             children: [
-              Image.asset('assets/AppDev.png'),
+              Image.asset(
+                'assets/AppDev.png',
+                height: 150,
+              ),
               Text(
                 'We develop beautiful Android Apps bringing your ideas live to the world',
                 textAlign: TextAlign.center,
@@ -64,10 +67,13 @@ class _ServicePageState extends State<ServicePage> {
                   )),
                   decoration: BoxDecoration(
                       color: Color.fromRGBO(108, 99, 255, 1),
-                      borderRadius: BorderRadius.circular(25)),
+                      borderRadius: BorderRadius.circular(width * 0.06365)),
                 ),
               ),
-              Image.asset('assets/WebDev.png'),
+              Image.asset(
+                'assets/WebDev.png',
+                height: 150,
+              ),
               Text(
                 'We develop Creative Websites for your businesses and Startups',
                 textAlign: TextAlign.center,
@@ -95,7 +101,7 @@ class _ServicePageState extends State<ServicePage> {
                   )),
                   decoration: BoxDecoration(
                       color: Color.fromRGBO(108, 99, 255, 1),
-                      borderRadius: BorderRadius.circular(25)),
+                      borderRadius: BorderRadius.circular(width * 0.06365)),
                 ),
               ),
             ],

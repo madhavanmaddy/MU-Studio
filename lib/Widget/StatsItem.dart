@@ -16,12 +16,15 @@ class StatsItem extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    double width = MediaQuery.of(context).size.width;
+    double height = MediaQuery.of(context).size.height;
     return Column(
       children: [
         Container(
-          height: 75,
+          height: height * 0.0898,
           decoration: BoxDecoration(
-              border: Border.all(width: 2, color: Colors.black.withOpacity(1)),
+              border: Border.all(
+                  width: width * 0.00509, color: Colors.black.withOpacity(1)),
               color: Colors.white,
               shape: BoxShape.circle),
           child: Center(
